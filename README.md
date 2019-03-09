@@ -1,2 +1,2 @@
 # Basic-Bio
-That Portfolio Though, HW1
+responsive portfolio, HW2
