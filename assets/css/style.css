@@ -1,552 +1,78 @@
-/*this controls the html document body*/
 body {
-    background-image: url(../images/leaves.jpg);
-    margin: 0;
-    padding: 0;
-    line-height: 50px;
-    background: size 100%;
-    font-family: 'Coming Soon', cursive;
-    
-}
-/* this conrols the h1 tag*/
-h1{
-    position: relative;
-}
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'heebo', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: justify;
 
-/* this controls the section behind the name at the top*/
-header{
-    margin: 0 auto;
-    background-color: #ffffff;
-    border-bottom:  #cccccc solid;
-    box-align: center;
-    width:100vw;
-    height: 70px;
-}
-    
-.tipitytop{
-        width: 960px;
-        margin: 0 auto;       
-}  
-    
-
-#links{
-   float: right;
-   margin-top: 10px;
   }
 
- /*this controls the links*/
- .headerLinks {
-    color: #284632;
-    margin: 10px;
-    font-size: 20px;
-    opacity: .8;
-    margin-top: 5px;
-    text-decoration: none;
-}
-
-a:hover{
-    color: #777777;
-    text-decoration: none;
-    font-size: 22px;
-    margin: 8px;
-    margin-top: 3px;
-}
-
-a:visited{
-    color: #a58135;
-}
-
-/*this controls the way the name looks at the top of the page*/
-.name {
-    background-color: #284632;
-    color:#ffffff;
-    width: 400px; /* changed this to px instead of %,hopefully this gets rid of it changing widths*/
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0;
-    position: relative;  /*gotta get these into the header*/ 
-    float: left;
-    font-size: 35px;
-    box-align: center;
-    text-align: center;
-    letter-spacing: 10px; 
-    
-    /* margin-right: 400px;     */
-}
-
-
-  
- #container{
-    margin: 0 auto;
-    width: 960px;
-    background-color: #ffffff;
-    border-color: #dddddd;
-    box-align: center;
-    position: relative;
-    overflow: auto;  
-    padding-bottom: 25px;
-} 
-
-
-
-/* this controls the about me, portfolio, and contact headings*/
-.sectionTitle {
-    color: #284632;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    border-bottom: solid 5px #dddddd;
-    letter-spacing: 10px; 
-    margin-left: 20px;
-    width: 890px;
-}
-
-
-/*this is for the about me page */
- /* bio image*/
-#pic {
-    width:260px;
-    float:left;
-    margin: 25px 50px;
-}
-
-
-
-/*what the writing looks like*/
- p{
-    color: #777777;
-    margin-top: -40px;
-    letter-spacing: 2px; 
-    padding: 10px 50px;
- }
-
-/* this is for the profile page */
- .frame{
-    height: 250px;
-    width: 300px;
-    float: left;
-    margin: 20px 40px 20px 40px;
-    display: flex;
- }
-
- .frame:hover {
-     opacity:.8;
- }
-
-.profilePicture{
-    height:250px;
-    width: 300px;
-    margin: 25px;
-    margin-left: 30px;
-    z-index: 0;
-    margin: auto;
-}
-
-h2{
-    background: #284632;
-    color: #ffffff;
-    width: 300px;
-    padding-top: 15px;
-    text-align: center;
-    float: left;
-    z-index: 10;
-    margin-top: 150px;
-    margin-left:-300px;
-}
-
-
-/* this is for the contact page */
-button{
-    background-color: #284632;
-    color: #ffffff;
-    font-size: 25px;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    opacity: 1;
-}
-
-button:hover{
-    opacity: .8;   
-}
-
-
-.inputBoxes{
-    margin-left: 40px;
-    width: 865px;
-    font-size: 15px;
-    margin-bottom: 40px;
-    color: #a58135;
-    align-items: center;
-}
-
-h4{
-    margin-left: 50px;
-    font-size: 22px;
+a#name{
+    color:black;
+    padding-top: 50px;
+    font-size: 50px;
+    line-height: 25px;  
+    min-width: 100%;
+    font-family: 'League Script', cursive;
     font-weight: 300;
-    margin-top: -20px;
-    margin-bottom: -7px;
-}
- /*footer situation*/
- #footer{
-    background-color: #284632;
-    height: 100px;
-    border-top: 5px solid #777777;  
-    width: 100%;
+    text-transform: lowercase;
+    /* letter-spacing: 2px; */
 }
 
-@media(max-width:980px){
-    #links{
-       float: right;
+a.topLinks{
    
-   }
-   .name{
-       background-color: 
-   }
-   #container{
-       width: 90vw;
-   }
-   .sectionTitle{
-       width: 90vw;
-       
-   }
-   p{ 
-       letter-spacing: 0px;
-       text-align: justify;
-   }
-   .frame{
-       margin-left: 30px;
-   }
-   .inputBoxes{
-       width:80vw;
-   }
-   }
-
-
-@media(max-width:768px){
-
-header{
-    width: 100vw;
-}
-#container{
-    width: 90%;
-}
-#links{
-    float: right;
-}
-.inputBoxes{
-    width: 80vw;
-}
-@media (max-width: 640px){
-.name{
-    width: 100vw;
-    text-align: center;
-}
-#links{
-    width: 100vw;
-    float: left;
-    text-align: center;
-}
-header{
-    position: static;
-    height: 140px;
-    width: 100vw;
-}
-#container{
-    width: 90vw;
-}
-.sectionTitle{
-    width: 80vw;
-    text-align: center;
-}
-p{ 
-    letter-spacing: 0px;
-    text-align: justify;
-}
-.frame{
-    margin-left: 30px;
-}
-.inputBoxes{
-    width:78vw;
-    box-align: center;
-    margin-left: 30px;
-}
-/*this controls the html document body*/
-body {
-    background-image: url(../images/leaves.jpg);
-    margin: 0;
-    padding: 0;
-    line-height: 50px;
-    background: size 100%;
-    font-family: 'Coming Soon', cursive;
-    
-}
-/* this conrols the h1 tag*/
-h1{
-    position: relative;
 }
 
-/* this controls the section behind the name at the top*/
-header{
-    margin: 0 auto;
-    background-color: #ffffff;
-    border-bottom:  #cccccc solid;
-    box-align: center;
-    width:100vw;
-    height: 70px;
+nav{
+    min-height: 12vh;
 }
-    
-.tipitytop{
-        width: 960px;
-        margin: 0 auto;       
-}  
-    
 
-#links{
-   float: right;
-   margin-top: 10px;
+main {
+    flex: 1 0 auto;
   }
 
- /*this controls the links*/
- .headerLinks {
-    color: #284632;
-    margin: 10px;
-    font-size: 20px;
-    opacity: .8;
-    margin-top: 5px;
-    text-decoration: none;
+.first{
+    margin-top: 40px;
+}
+.statement{
+    margin-top: 10px;
+}
+#letsSee{
+    background-color:black;
+}
+#projectsHeader{
+    /* background-color: black;
+    color: white; */
+    font-family: 'League Script', cursive;
+    color: #168C80;
+   
 }
 
-a:hover{
-    color: #777777;
-    text-decoration: none;
-    font-size: 22px;
-    margin: 8px;
-    margin-top: 3px;
+.card-title{
+    font-size: 10px;
 }
-
-a:visited{
-    color: #a58135;
-}
-
-/*this controls the way the name looks at the top of the page*/
-.name {
-    background-color: #284632;
-    color:#ffffff;
-    width: 400px; /* changed this to px instead of %,hopefully this gets rid of it changing widths*/
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin: 0;
-    position: relative;  /*gotta get these into the header*/ 
-    float: left;
-    font-size: 35px;
-    box-align: center;
-    text-align: center;
-    letter-spacing: 10px; 
-    
-    /* margin-right: 400px;     */
-}
-
-
-  
- #container{
-    margin: 0 auto;
-    width: 960px;
-    background-color: #ffffff;
-    border-color: #dddddd;
-    box-align: center;
-    position: relative;
-    overflow: auto;  
-    padding-bottom: 25px;
-} 
-
-
-
-/* this controls the about me, portfolio, and contact headings*/
-.sectionTitle {
-    color: #284632;
-    padding-left: 30px;
-    padding-top: 30px;
-    padding-bottom: 25px;
-    border-bottom: solid 5px #dddddd;
-    letter-spacing: 10px; 
-    margin-left: 20px;
-    width: 890px;
-}
-
-
-/*this is for the about me page */
- /* bio image*/
-#pic {
-    width:260px;
-    float:left;
-    margin: 25px 50px;
-}
-
-
-
-/*what the writing looks like*/
- p{
-    color: #777777;
-    margin-top: -40px;
-    letter-spacing: 2px; 
-    padding: 10px 50px;
- }
-
-/* this is for the profile page */
- .frame{
-    height: 250px;
-    width: 300px;
-    float: left;
-    margin: 20px 40px 20px 40px;
-    display: flex;
- }
-
- .frame:hover {
-     opacity:.8;
- }
-
-.profilePicture{
-    height:250px;
-    width: 300px;
-    margin: 25px;
-    margin-left: 30px;
-    z-index: 0;
-    margin: auto;
-}
-
-h2{
-    background: #284632;
-    color: #ffffff;
-    width: 300px;
-    padding-top: 15px;
-    text-align: center;
-    float: left;
-    z-index: 2;
-    margin-top: 150px;
-    margin-left:-300px;
-}
-
-
-/* this is for the contact page */
-button{
-    background-color: #284632;
-    color: #ffffff;
-    font-size: 25px;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    opacity: 1;
-}
-
-button:hover{
-    opacity: .8;   
-}
-
-
-.inputBoxes{
-    margin-left: 40px;
-    width: 865px;
+.cardText{
     font-size: 15px;
-    margin-bottom: 40px;
-    color: #a58135;
-    align-items: center;
 }
-
-h4{
-    margin-left: 50px;
-    font-size: 22px;
-    font-weight: 300;
-    margin-top: -20px;
-    margin-bottom: -7px;
+.linkToPlay{
+    color: #D88843;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
- /*footer situation*/
- #footer{
-    background-color: #284632;
-    height: 100px;
-    border-top: 5px solid #777777;  
-    width: 100%;
+#gitHub, #linkedIn, #email{
+    padding: 0px 10px;
 }
-
-@media (max-width:980px){
-    #links{
-       float: right;
-   
-   }
-   .name{
-       background-color: 
-   }
-   #container{
-       width: 90vw;
-   }
-   .sectionTitle{
-       width: 80%;
-   }
-   p{ 
-       letter-spacing: 0px;
-       text-align: justify;
-   }
-   .frame{
-       margin-left: 30px;
-   }
-   .inputBoxes{
-       width:80%;
-   }
-   }
-
-
-@media  (max-width:768px){
-
-header{
-    width: 100vw;
+#email{
+    color: 
 }
-#container{
-    width: 90%;
-}
-#links{
-    float: right;
-}
-.sectionTitle{
-    width: 82%;
-}
-.inputBoxes{
-    width: 80vw;
-}
-}
-@media  (max-width: 640px){
-.name{
-    width: 100vw;
-    text-align: center;
-  
-}
-#links{
-    width: 100vw;
-    float: none;
-    align-items: center;
-    margin-top: 0px;
-    
-}
-header{
-    position: static;
-    height: 120px;
-    width: 100vw;
-}
-#container{
-    width: 90%;
-}
-.sectionTitle{
-    width: 82%;
+footer.page-footer{
    
 }
-p{ 
-    letter-spacing: 0px;
-    text-align: justify;
+footer{
+    min-height: 10vh;
+   
 }
-.frame{
-    margin-left: 30px;
-}
-.inputBoxes{
-    width:78vw;
-    box-align: center;
-    margin-left: 30px;
-    margin-right: 50px;
-}
-}
+

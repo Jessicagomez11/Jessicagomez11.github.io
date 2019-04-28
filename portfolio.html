@@ -3,68 +3,149 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
-    <script src="main.js"></script>
+    <title>Portfolio</title>
+ <!--Import Google Icon Font-->
+
+ <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+ <!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|Heebo:100,300,400|League+Script|Quicksand:300|Sacramento" rel="stylesheet"> <!-- materialize css -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+ <!-- local css -->
+ <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+
+
+
+
 </head>
+
 <body>
-        <header>
-                <section >
-                <div= class="tipitytop">
+ <nav class='z-depth-0'>
+     <div class="nav-wrapper white ">
+         <a id='name' class="brand-logo center flow-text s12 ">Jessica Gomez</a>
         
-                        <h1 class="name"> Jessica Gomez</h1>
-
-                        <div id="links">
-                                <a class="headerLinks" href="index.html">About</a> |
-                                <a class="headerLinks" href="portfolio.html">Portfolio</a> |
-                                <a class="headerLinks" href="contact.html">Contact</a>
-                                
-                        </div>
-                </div>
-                </section>
-        </header>
+     </div>
+ </nav>
 
 
-        <br>
+ <main class="container">
+     <div class="row first">
+         <div class="col s12 m3 center">
+            <img id="pic" class="responsive-img" src="../Jessicagomez11.github.io/assets/images/itsme.jpg"
+                 width='250' alt="Picture of me" />
+            
 
- 
-         <div id="container">
+         </div>
+         <div class="col s12 m9">
+             <p class='flow-text statement'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime molestiae
+                 fugit iusto, nemo laborum, odit dolores ab nesciunt amet dicta velit laudantium saepe iste quidem
+                 suscipit distinctio ipsam voluptatem quis?</p>
 
-                <h1 class="sectionTitle">Portfolio</h1>
 
-                <div class="frame">        
-                        <a href="../Psychic-Game/index.html"><img class="profilePicture" src="assets/images/portfoliopic1.jpg" alt="Project 1"></a>
-                        <h2>Psychic-Game</h2>
-                </div>
+         </div>
+     </div>
+    
 
-                <div class="frame">
-                        <a href="../TriviaGame/index.html"><img class="profilePicture" src="assets/images/portfoliopic2.jpg" alt="Project 2"></a>
-                        <h2>Trivia Game</h2>        
-                </div>
-        
-                <div class="frame">
-                        <a href="../watering-schedule/index.html"><img class="profilePicture" src="assets/images/portfoliopic3.jpg" alt="Project 3"></a>
-                        <h2>Plant Watering Reminder</h2>   
-                </div>
+     <!-- end of the first row -->
+     <!-- <div class="row" id='letsSee' >
+             <div class="col" >
+                     
 
-                <div class="frame">
-                        <img class="profilePicture" src="assets/images/portfoliopic4.jpg" alt="Project 4">
-                        <h2>Rutgers Info Widget</h2>
-                </div>
-                <div class="frame">
-                        <img class="profilePicture" src="assets/images/portfoliopic5.jpg" alt="Project 5">
-                        <h2>Rock Paper Scissors</h2>
-                </div>
+             </div> -->
 
-               
+     </div>
+     <div class='row' id="secondRow">
+         <h4 id="projectsHeader">---projects---</h4>
+         <div class="col s12 m4 l4">
+             <div class="card sticky-action">
+                 <div class="card-image waves-effect waves-block waves-light">
+                     <img class="activator" src="assets/images/tree.JPG">
+                 </div>
+                 <div class="card-content">
+                     <span class="card-title activator grey-text text-darken-4">Meal Of Fortune<i
+                             class="material-icons right">more_vert</i></span>
+                     <a class='linkToPlay'href="https://jessicagomez11.github.io/project-1/" target="_blank">decide!</a>
+                     <a href="https://github.com/katvengo/project-1.git" target="_blank" class='right'><img src="assets/images/GitHub-Mark-32px.png"></a>
+
+                 </div>
+                 <div class="card-reveal">
+                     <span class="card-title grey-text text-darken-4">Meal Of Fortune<i
+                             class="material-icons right">close</i></span>
+                     <p class='cardText'>Have you ever sat amongst your group of friends trying to decide where to go for dinner just
+                         to find yourselves saying "IDK, wherever you wanna go?" This app takes in your choices and
+                         randly selecs one of those and shows you restaurants near you.</p>
+                 </div>
+             </div>
          </div>
 
-           
-<br>
+         <div class="col s12 m4 l4">
+             <div class="card sticky-action">
+                 <div class="card-image waves-effect waves-block waves-light">
+                     <img class="activator" src="assets/images/tree.JPG">
+                 </div>
+                 <div class="card-content">
+                     <span class="card-title activator grey-text text-darken-4">Are you psychic?<i
+                             class="material-icons right">more_vert</i></span>
+                     <a class='linkToPlay' href=" https://jessicagomez11.github.io/Psychic-Game/" target="_blank">predict!</a>
+                     <a href="https://github.com/Jessicagomez11/Psychic-Game.git" target="_blank" class='right'><img src="assets/images/GitHub-Mark-32px.png"></a>
+                 </div>
+                 <div class="card-reveal">
+                     <span class="card-title grey-text text-darken-4">Are you psychic?<i
+                             class="material-icons right">close</i></span>
+                     <p class='cardText'>Bingo Bronson isn't think about manuka honey today, can you guess what what letter Bingo
+                         Bronson is thinking of?</p>
+                 </div>
+             </div>
+         </div>
 
-<footer id="footer"> </footer>
-    
+         <div class="col s12 m4 l4">
+             <div class="card sticky-action">
+                 <div class="card-image waves-effect waves-block waves-light">
+                     <img class="activator" src="assets/images/tree.JPG">
+                 </div>
+                 <div class="card-content">
+                     <span class="card-title activator grey-text text-darken-4">Adulting 101<i
+                             class="material-icons right">more_vert</i></span>
+                    <a  class='linkToPlay' href="https://jessicagomez11.github.io/Adulting101/" target="_blank">play!</a>
+                     <a href="https://github.com/Jessicagomez11/Adulting101.git" target="_blank" class='right'><img src="assets/images/GitHub-Mark-32px.png"></a>
+
+                 </div>
+                 <div class="card-reveal">
+                     <span class="card-title grey-text text-darken-4">Budgeting<i
+                             class="material-icons right">close</i></span>
+                     <p class='cardText'>This game sharpens your budgeting skills... at the bar! See how many drinks you can buy while
+                         staying in your budget. </p>
+                 </div>
+             </div>
+
+         </div>
+
+     </div>
+     
+
+
+   
+
+
+
+ </main>
+ 
+
+ <footer class="page-footer black center">
+                <a href="https://github.com/Jessicagomez11" target="_blank"><img id="gitHub" src='assets/images/GitHub-Mark-Light-32px.png'></a> 
+                <a href="https://www.linkedin.com/in/jessica-gomez-2ba17817b/" target="_blank" id="linkedIn"><img src='assets/images/In-White-34.png'></a> 
+                <a href="mailto:jessicaegomez90@gmail.com" target="_top" id='email'> <i class="material-icons small">email</i></a>
+
+ </footer>
+ <!-- Compiled and minified JavaScript -->
+ <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+
+
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+ <script src="assets/javascript/app.js"></script>
+
+
+ </script>
 </body>
+
 </html>
