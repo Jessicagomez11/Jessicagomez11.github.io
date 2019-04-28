@@ -55,16 +55,17 @@ main {
     font-size: 15px;
 }
 .linkToPlay{
-    color: #B25AB2;
+    color:#ad1457;
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: 1px;
+    font-weight: 500;
 }
 #gitHub, #linkedIn, #email{
     padding: 0px 10px;
 }
 i.material-icons{
-    color: #FFC908;
+    color: #f8bbd0;
 }
 
 footer{
