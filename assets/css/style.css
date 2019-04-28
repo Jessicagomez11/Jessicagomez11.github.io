@@ -2,7 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: 'heebo', sans-serif;
+    font-family: 'quicksand', sans-serif;
     font-weight: 100;
     font-size: 20px;
     text-align: justify;
@@ -21,9 +21,7 @@ a#name{
     /* letter-spacing: 2px; */
 }
 
-a.topLinks{
-   
-}
+
 
 nav{
     min-height: 12vh;
@@ -46,7 +44,7 @@ main {
     /* background-color: black;
     color: white; */
     font-family: 'League Script', cursive;
-    color: #168C80;
+    color: black;
    
 }
 
@@ -57,7 +55,7 @@ main {
     font-size: 15px;
 }
 .linkToPlay{
-    color: #D88843;
+    color: #B25AB2;
     text-transform: uppercase;
     font-size: 15px;
     letter-spacing: 1px;
@@ -65,12 +63,10 @@ main {
 #gitHub, #linkedIn, #email{
     padding: 0px 10px;
 }
-#email{
-    color: 
+i.material-icons{
+    color: #FFC908;
 }
-footer.page-footer{
-   
-}
+
 footer{
     min-height: 10vh;
    
