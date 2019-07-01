@@ -19,6 +19,24 @@ a#name{
     font-weight: 300;
     text-transform: lowercase;
     /* letter-spacing: 2px; */
+
+   
+    animation-duration: 3s;
+    animation-name: slidein;
+    
+}
+@keyframes slidein {
+  from {
+    margin-top: 100%;
+    width: 300%;
+    opacity: 100%; 
+  }
+
+  to {
+    margin-bottom: 0%;
+    width: 100%;
+    opacity: 0%;
+  }
 }
 
 
@@ -72,4 +90,46 @@ footer{
     min-height: 10vh;
    
 }
+/* html, body {
+    margin: 0;
+    padding: 0;
+  } */
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .slider {
+      width: 100%;
+      margin: 100px auto;
+      margin-top: 20px;
+  }
+
+  .slick-slide {
+    margin: 0px 20px;
+    
+  }
+
+  .slick-slide img {
+    width: 100%;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    color: black;
+  }
+
+
+  .slick-slide {
+    transition: all ease-in-out .3s;
+    opacity: 1;
+  }
+  
+  .slick-active {
+    opacity: 1;
+  }
+
+  .slick-current {
+    opacity: 1;
+  }
 

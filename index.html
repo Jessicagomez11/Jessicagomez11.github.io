@@ -11,11 +11,19 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dawning+of+a+New+Day|League+Script|Quicksand:300"
-        rel="stylesheet"> <!-- materialize css -->
+        rel="stylesheet">
+    <!-- materialize css -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Slick CSS -->
+
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/slick/slick.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/slick/slick-theme.css">
+
     <!-- local css -->
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-
+    <!-- animate.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 
 
@@ -25,7 +33,7 @@
 <body>
     <nav class='z-depth-0'>
         <div class="nav-wrapper white ">
-            <a id='name' class="brand-logo center flow-text s12 ">Jessica Gomez</a>
+            <a id='name' class=" brand-logo center flow-text s12 ">Jessica Gomez</a>
 
         </div>
     </nav>
@@ -34,8 +42,8 @@
     <main class="container">
         <div class="row first">
             <div class="col s12 m3 center">
-                <img id="pic" class="responsive-img" src="../Jessicagomez11.github.io/assets/images/itsme.jpg"
-                    width='250' alt="Picture of me" />
+                <img id="pic" class="responsive-img circle" src="assets/images/Aura 2019.jpeg" width='250'
+                    alt="Picture of me" />
 
 
             </div>
@@ -55,11 +63,21 @@
 
 
             </div>
+        </div>
 
         </div>
         <div class='row ' id="secondRow">
+
+
             <h4 id="projectsHeader" class="center">projects</h4>
-            <div class="col s12 m4 l4">
+
+
+
+
+            <!-- =======================================   SLIDER  =============================================================== -->
+
+            <section class="regular slider" data-sizes="50vw">
+
                 <div class="card sticky-action ">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/tree.JPG">
@@ -74,24 +92,27 @@
                                 src="assets/images/GitHub-Mark-32px.png"></a>
 
                     </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Meal Of Fortune<i
+                    <div class="card-reveal">˜
+                        <span class="card-title grey-text flow-text text-darken-4">Meal Of Fortune<i
                                 class="material-icons right">close</i></span>
-                        <p class='cardText'>Have you ever sat amongst your group of friends trying to decide where to go
+                        <p class='cardText'>Have you ever sat amongst your group of friends trying to decide where
+                            to go
                             for dinner just
-                            to find yourselves saying "IDK, wherever you wanna go?" This app takes in your choices and
+                            to find yourselves saying "IDK, wherever you wanna go?" This app takes in your choices
+                            and
                             randly selecs one of those and shows you restaurants near you.</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="col s12 m4 l4">
+
+
+
                 <div class="card sticky-action">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/tree.JPG">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Are you psychic?<i
+                        <span class="card-title activator flow-text grey-text text-darken-4">Are you psychic?<i
                                 class="material-icons right">more_vert</i></span>
                         <a class='linkToPlay' href=" https://jessicagomez11.github.io/Psychic-Game/"
                             target="_blank">predict!</a>
@@ -107,15 +128,15 @@
                             Bronson is thinking of?</p>
                     </div>
                 </div>
-            </div>
 
-            <div class="col s12 m4 l4 ">
+
+
                 <div class="card sticky-action">
                     <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/images/tree.JPG">
                     </div>
                     <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Adulting 101<i
+                        <span class="card-title activator flow-text grey-text text-darken-4">Adulting 101<i
                                 class="material-icons right">more_vert</i></span>
                         <a class='linkToPlay' href="https://jessicagomez11.github.io/Adulting101/"
                             target="_blank">play!</a>
@@ -132,84 +153,87 @@
                             staying in your budget. </p>
                     </div>
                 </div>
+     
+
+
+
+
+        <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/images/tree.JPG">
+            </div>
+            <div class="card-content">
+                <span class="card-title activator flow-text grey-text text-darken-4">Liri Bot<i
+                        class="material-icons right">more_vert</i></span>
+                <a class='linkToPlay' href="https://drive.google.com/file/d/1SW-kh7nfEZzkHD_oUoXwTdTgW74ymZtR/view"
+                    target="_blank"> See it in action!</a>
+                <a href="https://github.com/Jessicagomez11/liri-node-app.git" target="_blank" class='right tooltipped'
+                    data-position="bottom" data-tooltip="GitHub Repository"><img
+                        src="assets/images/GitHub-Mark-32px.png"></a>
+            </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">Liri Node App<i
+                        class="material-icons right">close</i></span>
+                <p class='cardText'>Liri searches for songs, movie information, and she can also check when your
+                    favorite will be in town. </p>
             </div>
         </div>
 
 
-        <div class="row">
-            <div class="col s12 m4 l4">
-                <div class="card sticky-action">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/images/tree.JPG">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Liri Bot<i
-                                class="material-icons right">more_vert</i></span>
-                        <a class='linkToPlay'
-                            href="https://drive.google.com/file/d/1SW-kh7nfEZzkHD_oUoXwTdTgW74ymZtR/view"
-                            target="_blank"> See it in action!</a>
-                        <a href="https://github.com/Jessicagomez11/liri-node-app.git" target="_blank"
-                            class='right tooltipped' data-position="bottom" data-tooltip="GitHub Repository"><img
-                                src="assets/images/GitHub-Mark-32px.png"></a>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Liri Node App<i
-                                class="material-icons right">close</i></span>
-                        <p class='cardText'>Liri searches for songs, movie information, and she can also check when your
-                            favorite will be in town. </p>
-                    </div>
-                </div>
+
+        <div class="card sticky-action">
+            <div class="card-image waves-effect waves-block waves-light">
+                <img class="activator" src="assets/images/tree.JPG">
             </div>
-
-            <div class="col s12 m4 l4">
-                <div class="card sticky-action">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/images/tree.JPG">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">BAMAZON!<i
-                                class="material-icons right">more_vert</i></span>
-                        <a class='linkToPlay' href="https://drive.google.com/file/d/1sCx5v9SuoH812l4n88tzhMG4SiTTzD9c/view"
-                            target="_blank">Shop!</a>
-                        <a href="https://github.com/Jessicagomez11/bamazon" target="_blank"
-                            class='right tooltipped' data-position="bottom" data-tooltip="GitHub Repository"><img
-                                src="assets/images/GitHub-Mark-32px.png"></a>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">BAMAZON!<i
-                                class="material-icons right">close</i></span>
-                        <p class='cardText'>In a shopping mood?  Visit Bamazon and browse through our eclectic collection of things! </p>
-                    </div>
-                </div>
+            <div class="card-content">
+                <span class="card-title activator  flow-text grey-text text-darken-4">BAMAZON!<i
+                        class="material-icons right">more_vert</i></span>
+                <a class='linkToPlay' href="https://drive.google.com/file/d/1sCx5v9SuoH812l4n88tzhMG4SiTTzD9c/view"
+                    target="_blank">Shop!</a>
+                <a href="https://github.com/Jessicagomez11/bamazon" target="_blank" class='right tooltipped'
+                    data-position="bottom" data-tooltip="GitHub Repository"><img
+                        src="assets/images/GitHub-Mark-32px.png"></a>
             </div>
-
-            <div class="col s12 m4 l4">
-                <div class="card sticky-action">
-                    <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/images/tree.JPG">
-                    </div>
-                    <div class="card-content">
-                        <span class="card-title activator grey-text text-darken-4">Friender<i
-                                class="material-icons right">more_vert</i></span>
-                        <a class='linkToPlay' href="https://friender-jeg.herokuapp.com"
-                            target="_blank">Find Friends</a>
-                        <a href="https://github.com/Jessicagomez11/Friender" target="_blank"
-                            class='right tooltipped' data-position="bottom" data-tooltip="GitHub Repository"><img
-                                src="assets/images/GitHub-Mark-32px.png"></a>
-                    </div>
-                    <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Friender!<i
-                                class="material-icons right">close</i></span>
-                        <p class='cardText'>Take the survey to make new friends. </p>
-                    </div>
-                </div>
+            <div class="card-reveal">
+                <span class="card-title grey-text text-darken-4">BAMAZON!<i
+                        class="material-icons right">close</i></span>
+                <p class='cardText'>In a shopping mood? Visit Bamazon and browse through our eclectic collection of
+                    things! </p>
             </div>
-
-
         </div>
 
 
 
+
+        <div class="card sticky-action">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="assets/images/tree.JPG">
+                </div>
+                <div class="card-content">
+                    <span class="card-title activator  flow-text grey-text text-darken-4">Friender<i
+                            class="material-icons right">more_vert</i></span>
+                    <a class='linkToPlay' href="https://friender-jeg.herokuapp.com" target="_blank">Find Friends</a>
+                    <a href="https://github.com/Jessicagomez11/Friender" target="_blank" class='right tooltipped'
+                        data-position="bottom" data-tooltip="GitHub Repository"><img
+                            src="assets/images/GitHub-Mark-32px.png"></a>
+                </div>
+                <div class="card-reveal">
+                    <span class="card-title grey-text text-darken-4">Friender!<i
+                            class="material-icons right">close</i></span>
+                    <p class='cardText'>Take the survey to make new friends. </p>
+                </div>
+            </div>
+
+
+
+
+
+
+
+
+
+      
+        </section>
 
 
 
@@ -225,15 +249,19 @@
                 class="material-icons small">email</i></a>
 
     </footer>
-    <!-- Compiled and minified JavaScript -->
-    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
 
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <!-- <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+
+
+    <script type="text/javascript" src="./assets/css/slick/slick.js"></script>
+    <!-- MATERIALIZE Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="assets/javascript/app.js"></script>
 
 
-    <script>
+    <!-- <script>
 
         $(document).ready(function () {
             
@@ -250,7 +278,7 @@
 
 
 
-    </script>
+    </script> -->
 </body>
 
 </html>
